@@ -1,0 +1,5 @@
+on damage of player or mob:
+    attacker is a player
+    weapon of attacker is stick named "Flame Blade"
+    ignite victim with fire for 5 seconds
+    
