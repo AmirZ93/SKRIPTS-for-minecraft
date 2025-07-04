@@ -1,0 +1,6 @@
+on chat:
+    if lowercase of message is "$TNT":
+        cancel event
+        broadcast "TNT summoned!!!"
+        spawn primed tnt at location of player
+        

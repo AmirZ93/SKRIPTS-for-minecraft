@@ -1,0 +1,7 @@
+every 1 second:
+    loop all players:
+        set {_item} to loop-player's tool
+        if {_item} is stick:
+            if name of {_item} is "Speed Jump stick":
+                apply speed 2 to loop-player for 2 seconds
+                apply jump boost 2 to loop-player for 2 seconds
